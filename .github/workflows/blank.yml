@@ -32,4 +32,5 @@ jobs:
           npm i flying-squid
           ngrok authtoken (your authtoken)
           ngrok tcp 25565 --log=stdout > ngrok.log &
+          node .
           
